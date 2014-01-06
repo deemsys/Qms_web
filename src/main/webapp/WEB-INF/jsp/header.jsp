@@ -127,7 +127,7 @@
 							</li>
 				            <li>
 				            	<a href="#" class="<c:choose><c:when test="${true}">select</c:when><c:otherwise></c:otherwise></c:choose>" rel="ddsubmenu1">
-				            		<span><img src="<c:url value="/resources/images/email.png" />" alt="" style="padding:5px 5px 0 0;" />Message Stream</span>
+				            		<span><img src="<c:url value="/resources/images/email.png" />" alt="" style="padding:5px 5px 0 0;" />Non Conformance</span>
 				            	</a>
 				            </li>
 				            <li>
@@ -137,7 +137,7 @@
 				            </li>
 				            <li>
 				            	<a href="#" class="<c:choose><c:when test="${true}">select</c:when><c:otherwise></c:otherwise></c:choose>" rel="ddsubmenu3">
-				            		<span><img src="<c:url value="/resources/images/icon_06.png" />" alt="" style="padding:5px 5px 0 0;" />Admin User</span>
+				            		<span><img src="<c:url value="/resources/images/icon_06.png" />" alt="" style="padding:5px 5px 0 0;" />Customers</span>
 				            	</a>
 				            </li>
 				            <li>
@@ -157,14 +157,14 @@
             				<li><a href="viewreports">Report</a></li>
           				</ul>
 						<ul id="ddsubmenu2" class="ddsubmenustyle">
-							<li><a href="showaddparticipants">Add Participants</a></li>
-				            <li><a href="viewparticipants">View participants</a></li>
+							<li><a href="add_nonconformance">Add NonConformance</a></li>
+				            <li><a href="view_nonconformance">View Details</a></li>
 				            <li><a href="showaddparticipantgroups">Add Participant Groups</a></li>
 							<li><a href="viewparticipantgroups">View Participant Groups</a></li>
 						</ul>
 						<ul id="ddsubmenu3" class="ddsubmenustyle">
-							<li><a href="showaddadminuser">Add Admin User</a></li>        
-				            <li><a href="viewadminuser">View Admin User</a></li>
+							<li><a href="addcustomer">Add Customer</a></li>        
+				            <li><a href="viewcustomers">View Customers</a></li>
 				            <li><a href="activityofadmin">User Activity Logs</a></li>
 				         </ul>
 						<ul id="ddsubmenu4" class="ddsubmenustyle">

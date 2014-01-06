@@ -6,6 +6,12 @@
 	<bean id="mainDAO" class="qms.dao.MainDAO">
 		<property name="dataSource" ref="dataSource" />
 	</bean>
+	<bean id="nonconformanceDAO" class="qms.dao.NonConformanceDAO">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	<bean id="customersDAO" class="qms.dao.CustomersDAO">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
 	
  
 </beans>
